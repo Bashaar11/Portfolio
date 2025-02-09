@@ -27,7 +27,7 @@ Let's create something amazing together!
 
 - LinkedIn: [https://www.linkedin.com/in/hafiz-bashaar-041a052b9/]
 - Email: [hafizbashaar11@gmail.com]
-- Twitter: [Your Twitter]
+- Whatsapp: [https://wa.me/+923366370799]
 
 ---
 
