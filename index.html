@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--==================== FAVICON ====================-->
+    <link rel="icon" href="Assets/logo.png" class="favicon">
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--==================== Remixicon ====================-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.0.1/remixicon.css">
+
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!--==================== Google Fonts ====================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+
+    <title>My Portfolio</title>
+</head>
+
+<body>
+
+    <!--==================== PRELOADER ====================-->
+    <div class="preloader">
+        <div class="banter-loader">
+            <div class="banter-loader__box"></div>
+            <div class="banter-loader__box"></div>
+            <div class="banter-loader__box"></div>
+            <div class="banter-loader__box"></div>
+            <div class="banter-loader__box"></div>
+            <div class="banter-loader__box"></div>
+            <div class="banter-loader__box"></div>
+            <div class="banter-loader__box"></div>
+            <div class="banter-loader__box"></div>
+        </div>
+    </div>
+
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+
+            <img src="Assets/logo.png" alt="logo" class="nav__logo">
+            <a href="#" class="nav__logo-text">Bashaar</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class="uil uil-estate nav__icon"></i>Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i>About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i>Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">
+                            <i class="uil uil-briefcase-alt nav__icon"></i>Services
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i>Portfolio
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i>Contact
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+
+                <!-- Dark mode button -->
+
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.youtube.com/channel/UCKN_ekhHDagDO7_yKOlxFtA" class="home__social-icon"
+                            target="_blank">
+                            <i class="uil uil-youtube"></i>
+                        </a>
+
+                        <a href="https://www.facebook.com/ihsan.ulhaq.125760?mibextid=ZbWKwL" class="home__social-icon"
+                            target="_blank">
+                            <i class="uil uil-facebook-f"></i>
+                        </a>
+
+                        <a href="https://github.com/Bashaar11" class="home__social-icon" target="_blank">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__img">
+
+                        <img class="home__blob-img" src="Assets/my photo.png" alt="img">
+
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">Hi, I'm Bashaar</h1>
+                        <h3 class="home__subtitle">Frontend developer and Designer</h3>
+                        <p class="home__description">
+                            High level experience in web design and development
+                            knowledge, producing quality work.
+                        </p>
+                        <a href="#contact" class="button button--flex">
+                            Hire Me<i class="uil uil-message home__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse home__scroll-icon"></i>
+                        <span class="home__scroll-name">Scroll Down</span>
+                        <i class="uil uil-arrow-down home__scroll-arrow home__scroll-icon"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">My Introduction</span>
+
+            <div class="about__container container grid">
+                <img src="./Assets/second_photo.jpg" alt="img" class="about__img">
+
+                <div class="about__data">
+                    <p class="about__description">
+                        Hi, I'm Bashaar—a versatile professional in web development, graphic design, and UI/UX. I bring
+                        ideas to life with dynamic websites and compelling visuals. Let's build something exceptional
+                        together.
+                    </p>
+
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title">04+</span>
+                            <span class="about__info-name">Years <br> experience</span>
+                        </div>
+
+                        <div>
+                            <span class="about__info-title">03+</span>
+                            <span class="about__info-name">Completed <br> projects</span>
+                        </div>
+                        <div>
+
+                            <span class="about__info-title">03+</span>
+                            <span class="about__info-name">Satisfied <br> clients</span>
+                        </div>
+                    </div>
+
+                    <div class="about__buttons">
+                        <a download="" href="" class="button button--flex about__button">
+                            Download CV<i class="uil uil-download-alt button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My technical level</span>
+
+            <div class="skills__container container grid">
+
+                <!--==================== SKILLS 1 ====================-->
+                <div class="skills__content skills__close">
+                    <div class="skills__header">
+                        <i class="uil uil-brackets-curly skills__icon"></i>
+
+                        <div>
+                            <h1 class="skills__title">Frontend Developer</h1>
+                            <span class="skills__subtitle">More than 2 years</span>
+                        </div>
+
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__title">
+                                <h3 class="skills__name">HTML</h3>
+                                <span class="skills__number">90%</span>
+                            </div>
+
+                            <div class="skills__bar">
+                                <div class="skills__percentage skills__html"></div>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__title">
+                                <h3 class="skills__name">CSS</h3>
+                                <span class="skills__number">80%</span>
+                            </div>
+
+                            <div class="skills__bar">
+                                <div class="skills__percentage skills__css"></div>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__title">
+                                <h3 class="skills__name">JavaScript</h3>
+                                <span class="skills__number">20%</span>
+                            </div>
+
+                            <div class="skills__bar">
+                                <div class="skills__percentage skills__js"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--==================== SKILLS 2 ====================-->
+                <div class="skills__content skills__close">
+                    <div class="skills__header">
+                        <i class="uil uil-swatchbook skills__icon"></i>
+
+                        <div>
+                            <h1 class="skills__title">Designer</h1>
+                            <span class="skills__subtitle">More than 4 years</span>
+                        </div>
+
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__title">
+                                <h3 class="skills__name">Photoshop</h3>
+                                <span class="skills__number">70%</span>
+                            </div>
+
+                            <div class="skills__bar">
+                                <div class="skills__percentage skills__photoshop"></div>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__title">
+                                <h3 class="skills__name">Illustrator</h3>
+                                <span class="skills__number">80%</span>
+                            </div>
+
+                            <div class="skills__bar">
+                                <div class="skills__percentage skills__ai"></div>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__title">
+                                <h3 class="skills__name">Figma</h3>
+                                <span class="skills__number">60%</span>
+                            </div>
+
+                            <div class="skills__bar">
+                                <div class="skills__percentage skills__figma"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            </div>
+            </div>
+        </section>
+
+        <!--==================== SERVICES ====================-->
+        <section class="services section" id="services">
+            <h2 class="section__title">Services</h2>
+            <span class="section__subtitle">What I offer</span>
+
+            <div class="services__container container grid">
+
+                <!--==================== SERVICES 1 ====================-->
+                <div class="services__content">
+                    <div>
+                        <i class="ui uil-web-grid services__icon"></i>
+                        <h3 class="services__title">UI/UX <br> Designer</h3>
+                    </div>
+
+                    <span class="button button--flex button--link services__button">
+                        View more
+                        <i class="uil uil-arrow-right services__icon"></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">UI/UX <br> Designer</h4>
+                            <i class="uil uil-times services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I develop the user interface.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Web page development.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I create ui elements interactions.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I position your company brand.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--==================== SERVICES 2 ====================-->
+                <div class="services__content">
+                    <div>
+                        <i class="ui uil-arrow services__icon"></i>
+                        <h3 class="services__title">Frontend <br> Developer</h3>
+                    </div>
+
+                    <span class="button button--flex button--link services__button">
+                        View more
+                        <i class="uil uil-arrow-right services__icon"></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Frontend <br> Developer</h4>
+                            <i class="uil uil-times services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I create user-friendly interfaces.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I design customized web pages.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I build interactive UI elements.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I enhance your brand's digital presence.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--==================== SERVICES 3 ====================-->
+                <div class="services__content">
+                    <div>
+                        <i class="ui uil-pen services__icon"></i>
+                        <h3 class="services__title">Branding <br> Designer</h3>
+                    </div>
+
+                    <span class="button button--flex button--link services__button">
+                        View more
+                        <i class="uil uil-arrow-right services__icon"></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Branding <br> Designer</h4>
+                            <i class="uil uil-times services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I craft memorable brand identities.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I design impactful logos.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I create visually appealing brand assets.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I elevate your brand's image.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== PORTFOLIO ====================-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Most recent works</span>
+
+            <center>
+                <div class="tabs mt-5 " id="filter-buttons">
+                    <input type="radio" id="radio-1" name="tabs" checked />
+                    <label class="tab filter-button" for="radio-1" data-filter="*">All</label>
+                    <input type="radio" id="radio-2" name="tabs" />
+                    <label class="tab filter-button" for="radio-2" data-filter=".html">HTML</label>
+                    <input type="radio" id="radio-3" name="tabs" />
+                    <label class="tab filter-button" for="radio-3" data-filter=".design">Design</label>
+                    <input type="radio" id="radio-4" name="tabs" />
+                    <label class="tab filter-button react-tab" for="radio-4" data-filter=".react">React</label>
+                    <span class="glider"></span>
+                </div>
+            </center>
+
+            <div class="projects__container container grid">
+
+                <!-- Furnicom -->
+
+                <article class="projects__card html">
+                    <div class="projects__image">
+                        <img src="Assets/Furnicom.PNG" alt="img" class="projects__img">
+                    </div>
+
+                    <div class="projects__content">
+                        <h3 class="projects__subtitle">Website</h3>
+                        <h2 class="projects__title">Furnicom</h2>
+
+                        <p class="projects__description">
+                            Elevate spaces with Furnicom's exceptional collection, blending style and functionality to
+                            create inviting atmospheres resonating with timeless elegance.
+                        </p>
+                    </div>
+
+                    <div class="projects__buttons">
+                        <a href="https://furnicom.surge.sh/" target="_blank" class="projects__link">
+                            <i class="ri-chrome-line"></i> View
+                        </a>
+                    </div>
+                </article>
+
+
+                <!-- Royal Hotel -->
+
+                <article class="projects__card html">
+                    <div class="projects__image">
+                        <img src="Assets/royal hotel.PNG" alt="img" class="projects__img">
+                    </div>
+
+                    <div class="projects__content">
+                        <h3 class="projects__subtitle">Website</h3>
+                        <h2 class="projects__title">Royal Hotel</h2>
+
+                        <p class="projects__description">
+                            Explore luxury at Royal Hotel's website, where every click reveals exceptional service and
+                            unforgettable experiences.
+                        </p>
+                    </div>
+
+                    <div class="projects__buttons">
+                        <a href="https://royal-hotel.surge.sh/" target="_blank" class="projects__link">
+                            <i class="ri-chrome-line"></i> View
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Parallax Dummy -->
+
+                <article class="projects__card html">
+                    <div class="projects__image">
+                        <img src="Assets/Parallax.PNG" alt="img" class="projects__img">
+                    </div>
+
+                    <div class="projects__content">
+                        <h3 class="projects__subtitle">Website</h3>
+                        <h2 class="projects__title">Dummy Parallax</h2>
+
+                        <p class="projects__description">
+                            Discover our Dummy Parallax Website: a dynamic blend of innovation and artistry. Immerse in
+                            seamless transitions and captivating visuals. Welcome to the future of web design.
+                        </p>
+                    </div>
+
+                    <div class="projects__buttons">
+                        <a href="https://parallax-dummy.surge.sh/" target="_blank" class="projects__link">
+                            <i class="ri-chrome-line"></i> View
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Airpods Pro Landing Page -->
+
+                <article class="projects__card design">
+                    <div class="projects__image">
+                        <img src="Assets/airpods landing page.JPG" alt="img" class="projects__img">
+                    </div>
+
+                    <div class="projects__content">
+                        <h3 class="projects__subtitle">UI Design</h3>
+                        <h2 class="projects__title">Airpods Pro Landing Page</h2>
+
+                        <p class="projects__description">
+                            A beautiful modern UI design made in Figma for Apple AirPods Pro with user firendly UX.
+                        </p>
+                    </div>
+
+                    <div class="projects__buttons">
+                        <a href="https://www.figma.com/file/nELnOjxQJnZR06ARcl4EDK/AirPods-Pro-Landing-Page?type=design&node-id=0%3A1&mode=design&t=NNyNtbRCmqKAtn3L-1"
+                            target="_blank" class="projects__link">
+                            <i class="ri-chrome-line"></i> View
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Not yet -->
+
+                <article class="projects__card react not-yet">
+                    <p class="projects__description not-yet-text">
+                        Not yet
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <!--==================== PROJECT IN MIND ====================-->
+        <section class="project section">
+            <div class="project__bg">
+                <div class="project__container container grid">
+                    <div class="project__data">
+                        <h2 class="project__title">You have a new project</h2>
+                        <p class="project__description">Contact me now and get a 20% descount on your new project.</p>
+                        <a href="#contact" class="button button--flex button--white project__button">
+                            Conatct Me
+                            <i class="uil uil-message project__icon button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
+
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-phone contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Call Me</h3>
+                            <span class="conatct__subtitle">+92 321 7816266</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <span class="conatct__subtitle">hafizbashaar11@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-map-marker contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="conatct__subtitle">Faisalabad, Punjab, Pakistan</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <form class="contact__form grid" id="contact-form">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Name</label>
+                            <input type="text" class="contact__input" autocomplete="off" required name="user_name">
+                        </div>
+
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Email</label>
+                            <input type="email" class="contact__input" autocomplete="off" required name="user_email">
+                        </div>
+                    </div>
+
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Project</label>
+                        <input type="text" class="contact__input" autocomplete="off" required name="user_subject">
+                    </div>
+
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Message</label>
+                        <textarea name="" id="" cols="0" rows="7" class="contact__input" autocomplete="off" required
+                            name="user_messsage"></textarea>
+                    </div>
+
+                    <p class="contact-message" id="contact-message">
+
+                    </p>
+
+                    <div>
+                        <button type="submit" href="#" class="button button--flex contact__button">
+                            Send Message
+                            <i class="uil uil-message button__icon"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Bashaar</h1>
+                    <span class="footer__subtitle">Frontend Developer and Designer</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#services" class="footer__link">Services</a>
+                    </li>
+
+                    <li>
+                        <a href="#portoflio" class="footer__link">Portfolio</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact" class="footer__link">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://wa.me/+923366370799" target="_blank" class="footer__social">
+                        <i class="uil uil-whatsapp"></i>
+                    </a>
+
+                    <a href="https://www.facebook.com/ihsan.ulhaq.125760?mibextid=ZbWKwL" target="_blank"
+                        class="footer__social">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+
+                    <a href="https://github.com/Bashaar11" target="_blank" class="footer__social">
+                        <i class="uil uil-github-alt"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer__copy">&#169; CreativeCloud Academy. All rights reserved</div>
+        </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#home" class="scroll__up" id="scroll-up">
+        <i class="uil uil-arrow-up scroll__up-icon"></i>
+    </a>
+
+</body>
+<!--==================== SCROLL REVEAL JS ====================-->
+<script src="scrollreveal.min.js"></script>
+<!--==================== MAIN JS ====================-->
+<script src="script.js"></script>
+<!-- JQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<!-- Isotope Filter Link -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+<!-- Email Sending -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<!-- Isotope Filter Effect -->
+<script type="text/javascript">
+    var $projectsContainer = $('.projects__container').isotope({
+
+        itemSelector: '.projects__card',
+        layoutMode: 'fitRows'
+    })
+
+    $('.tabs .tab').on('click', function () {
+        $('.tabs .tab').removeClass("active")
+
+        var value = $(this).attr('data-filter')
+        $projectsContainer.isotope({
+            filter: value
+        })
+    })
+</script>
+
+<script>
+    // Select relevant HTML elements
+    const filterButtons = document.querySelectorAll("#filter-buttons label");
+    const filterableCards = document.querySelectorAll("#filterable-cards .projects__card");
+
+    // Function to filter cards based on filter buttons
+    const filterCards = (e) => {
+        document.querySelector("#filter-buttons .active").classList.remove("active");
+        e.target.classList.add("active");
+
+        filterableCards.forEach(card => {
+            // show the card if it matches the clicked filter or show all cards if "all" filter is clicked
+            if (card.dataset.name === e.target.dataset.filter || e.target.dataset.filter === "all") {
+                return card.classList.replace("hide", "show");
+            }
+            card.classList.add("hide");
+        });
+    }
+
+    filterButtons.forEach(button => button.addEventListener("click", filterCards));
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Preloader ko hide karne ka function
+        function hidePreloader() {
+            // Preloader element ko select karo
+            var preloader = document.querySelector('.preloader');
+            // Preloader ko display none kar do
+            preloader.style.display = 'none';
+        }
+
+        // Page load hone par preloader ko hide karo
+        window.addEventListener('load', function () {
+            hidePreloader();
+        });
+    });
+
+</script>
+
+
+<script>
+    /*=============== SEND EMAILS ===============*/
+
+    const contactForm = document.getElementById("contact-form");
+    const contactMessage = document.getElementById("contact-message");
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_2fio39x', 'template_e6ibj4i', '#contact-form', '9GRmqAzqjiWv_9AQL')
+            .then(() => {
+                contactMessage.addClass("active")
+
+                    .setTimeout(() => {
+                        contactMessage.removeClass("active")
+                    }, 5000)
+
+                contactForm.reset()
+            }, () => {
+                contactMessage.addClass("error")
+            })
+    }
+
+    contactForm.addEventListener("submit", sendEmail)
+</script>
+
+</html>
